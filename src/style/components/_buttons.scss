@@ -1,3 +1,4 @@
+
 /* Call to Action Button */
 .cta-btn {
   display: inline-block;
@@ -95,7 +96,6 @@
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=wishfulwaves);
     button:hover{cursor: pointer}
     button {
       background: transparent; outline: none;
@@ -120,7 +120,7 @@
       transform: translate(-100%,0);
       transition: all .4s ease-in-out;
       color: #167ed3;
-      font-family: 'wishfulwaves';
+      font-family: 'Broken';
     }
       /*button div (button text before hover)*/
       button:hover div{opacity: 0; transform: translate(100%,0)}
@@ -131,6 +131,6 @@
         font-size: 2rem;
         transition: all .4s ease-in-out;
         color: red;
-        font-family: 'wishfulwaves';
+        font-family: 'Broken';
       }
 
