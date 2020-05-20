@@ -94,32 +94,8 @@
   color: #272727;
 }
 
-// @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 
-// *, *:before, *:after{
-//   box-sizing: border-box;
-//   padding: 0; margin: 0;
-//   font: 300 1em/1.5 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-//   text-decoration: none;
-//   color: #111;
-// }
-
-// html, body{background: rgb(236, 240, 241);}
-
-//   section.container{
-//     min-width: 500px;
-//     margin: 10% auto;
-//     text-align: center;
-//   }
-//     a:hover{border-bottom: 1px solid #111;} 
-//     h1{font-size: 2em; padding: 20px 0;}
-//     p{
-//       font-size: .75em;
-//       text-transform: uppercase;
-//       letter-spacing: 2px;
-//       padding: 20px 0;
-//     }
-
+@import url(https://fonts.googleapis.com/css?family=wishfulwaves);
     button:hover{cursor: pointer}
     button {
       background: transparent; outline: none;
@@ -144,6 +120,7 @@
       transform: translate(-100%,0);
       transition: all .4s ease-in-out;
       color: #167ed3;
+      font-family: 'wishfulwaves';
     }
       /*button div (button text before hover)*/
       button:hover div{opacity: 0; transform: translate(100%,0)}
@@ -154,5 +131,6 @@
         font-size: 2rem;
         transition: all .4s ease-in-out;
         color: red;
+        font-family: 'wishfulwaves';
       }
 
