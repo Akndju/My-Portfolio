@@ -94,7 +94,7 @@
 .up i {
   color: #272727;
 }
-
+    @import url(https://fonts.googleapis.com/css?family=Piedra);
     button:hover{cursor: pointer}
     button {
       background: transparent; outline: none;
@@ -119,7 +119,7 @@
       transform: translate(-100%,0);
       transition: all .4s ease-in-out;
       color: #167ed3;
-      font-family: 'Broken';
+      font-family: 'Piedra';
     }
       /*button div (button text before hover)*/
       button:hover div{opacity: 0; transform: translate(100%,0)}
@@ -130,6 +130,6 @@
         font-size: 2rem;
         transition: all .4s ease-in-out;
         color: red;
-        font-family: 'Broken';
+        font-family: 'Piedra';
       }
 
